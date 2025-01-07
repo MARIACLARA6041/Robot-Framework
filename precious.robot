@@ -127,9 +127,9 @@ Fazer login e efetuar pagamento
     given Acessar Sistema my precious    ${login.url_precious}
     when clico em perfil     ${login.btn_login}
     then realizar login com google   ${login.btn_google}
-    and preencho com meu email     ${login.input_email}  mariaclaradev@edu.unifor.br  
+    and preencho com meu email     ${login.input_email}  //email  
     and clico em proximo    ${login.btn_proximo}    
-    and preencho com minha senha    ${login.input_senha}    12580266
+    and preencho com minha senha    ${login.input_senha}    //senha
     and clico em proximo    ${login.btn_proximo} 
     and clico em Continuar    ${login.btn_continuar}
     and comprar produto    ${pagamento.btn_produto}
